@@ -15,7 +15,7 @@
         <zeebe:ioMapping>
           <zeebe:input source="=customerId" target="customerId" />
           <zeebe:input source="=orderId" target="orderId" />
-          <zeebe:input source="=productPrice" target="orderTotal" />
+          <zeebe:input source="=orderTotal" target="orderTotal" />
           <zeebe:input source="=cardNumber" target="cardNumber" />
           <zeebe:input source="=cvc" target="cvc" />
           <zeebe:input source="=expiryDate" target="expiryDate" />
